@@ -1,4 +1,4 @@
-golang-text (0.20130502-1) unstable; urgency=low
+golang-text (0.0~git20130502-1) unstable; urgency=low
 
   * Initial release. Closes: something, whatever it is
 
