@@ -3,11 +3,11 @@ Upstream-Name: golang-text
 Source: https://github.com/kr/text/
 
 Files: *
-Copyright: 2013 Keith Rarick
+Copyright: 2013 Keith Rarick <kr@xph.us>
 License: Expat
 
 Files: debian/*
-Copyright: 2012 Tonnerre Lombard <tonnerre@ancient-solutions.com>
+Copyright: 2013 Tonnerre Lombard <tonnerre@ancient-solutions.com>
 License: Expat
 
 License: Expat

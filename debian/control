@@ -10,15 +10,8 @@ Vcs-Git: https://github.com/kr/text.git
 Vcs-Browser: https://github.com/kr/text
 
 Package: golang-text-dev
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Go package for manipulating paragraphs of text
  Package text provides rudimentary functions for manipulating text in
  paragraphs.
-
-Package: golang-text-bin
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Command line program for multi-column output of text
- mc splits the input into as many columns as will fit in N
- print positions.
