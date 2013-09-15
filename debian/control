@@ -6,8 +6,8 @@ Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go,
 	       golang-pty-dev
 Standards-Version: 3.9.4
 Homepage: https://github.com/kr/text
-Vcs-Git: https://github.com/kr/text.git
-Vcs-Browser: https://github.com/kr/text
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-text.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-go/packages/golang-text.git;a=summary
 
 Package: golang-text-dev
 Architecture: all
