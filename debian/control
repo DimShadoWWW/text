@@ -2,8 +2,7 @@ Source: golang-text
 Section: devel
 Priority: extra
 Maintainer: Tonnerre Lombard <tonnerre@ancient-solutions.com>
-Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go,
-	       golang-pty-dev
+Build-Depends: debhelper (>= 9.0.0), dh-golang, golang-go
 Standards-Version: 3.9.4
 Homepage: https://github.com/kr/text
 Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-text.git

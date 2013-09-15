@@ -10,9 +10,9 @@ export DH_GOPKG := github.com/kr/text
 # Currently, tests can't win.
 override_dh_auto_test:
 
+override_dh_auto_configure:
+	rm -fr ${CURDIR}/mc
+	dh_auto_configure -O--buildsystem=golang
+
 %:
 	dh $@ --buildsystem=golang --with=golang
-
-override_dh_auto_install:
-	dh_auto_install -O--buildsystem=golang
-	rm -rf ${CURDIR}/debian/golang-text-dev/usr/bin
